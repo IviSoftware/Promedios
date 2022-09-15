@@ -1,0 +1,67 @@
+.califications-containers{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position:relative;
+}
+
+.title_courses,.title_cal{
+    background-color: rgb(196, 196, 196);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.materias,.calificaciones{
+    display: flex;
+    flex-direction: column;
+}
+
+.txt_user{
+    all:unset;
+    padding: 10px;
+    border:none;
+    border-bottom: 1px solid rgb(55, 55, 55);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.txt_user:focus{
+    background-color: rgb(228, 228, 228);
+}
+
+.btn_add{
+    all:unset;
+    position: absolute;
+    bottom: -10px;
+    left: 48%;
+    background-color: rgb(228, 228, 228);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    transition: all 0.2s linear;
+}
+
+.btn_add:hover{
+    transform: scale(1.2);
+    color:rgb(0, 174, 116);
+    font-weight: bold;
+}
+
+.txt_user txt_cal{
+    position:relative;
+}
+
+.btn-delete{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
