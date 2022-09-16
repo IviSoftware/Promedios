@@ -1,5 +1,6 @@
 .califications-containers{
     width: 90%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     position:relative;
@@ -64,4 +65,29 @@
     right: 0;
     bottom: 0;
     display: none;
+}
+
+.btn_promedio{
+    all:unset;
+    background-color: rgba(115, 247, 203, 0.5);
+    color: rgb(26, 26, 26);
+    width: 150px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin:30px;
+}
+
+.btn_promedio:hover{
+    color:white;
+}
+
+.result{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
 }

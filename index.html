@@ -18,7 +18,7 @@
     
     <div class="materias">
       
-      <label class="title_courses">Materias</label>
+      <label class="title_courses">Materias (opcional)</label>
       <input class="txt_user txt_course" type="text" placeholder="Materia" />
     </div>
     
@@ -27,11 +27,14 @@
     <div class="calificaciones">
       
       <label class="title_cal" >Calificaciones</label>
-      <input class="txt_user txt_cal" type="number" placeholder="Calificacion"/>
+      <input class="txt_user txt_cal" type="number" max="10" placeholder="Calificacion"/>
       <button class="btn-delete">Quitar</button>
       
     </div>
   </div>
+
+  <button class="btn_promedio">Sacar promedio</button>
+  <p class="result"></p>
 
   <script src="./main.js"></script>
 </body>
